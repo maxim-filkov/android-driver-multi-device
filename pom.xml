@@ -30,7 +30,7 @@
                     <testSourceDirectory>${basedir}/src/main/java/</testSourceDirectory>
                     <testClassesDirectory>${project.build.directory}/classes/</testClassesDirectory>
                     <includes>
-                        <include>me/tango/test/stories/**/*.java</include>
+                        <include>com/multidevice/test/stories/**/*.java</include>
                     </includes>
                 </configuration>
             </plugin>

@@ -24,8 +24,6 @@ import org.springframework.core.env.Environment;
 
 /**
  * This class describes tests running configuration.
- *
- * @author mfilkov
  */
 @Configuration
 @ComponentScan(basePackages = { "com.multidevice.*" })
@@ -77,9 +75,9 @@ public class AcceptanceTestsConfiguration implements EnvironmentAware {
         final AndroidDriver driver = new AndroidDriver(new URL(environment.getProperty("test.appium.url" + (i + 1))),
             capabilities);
         driver
-            .manage()
-            .timeouts()
-            .implicitlyWait(Integer.parseInt(environment.getProperty("driver.wait.timeout")), TimeUnit.SECONDS);
+        .manage()
+        .timeouts()
+        .implicitlyWait(Integer.parseInt(environment.getProperty("driver.wait.timeout")), TimeUnit.SECONDS);
         drivers.add(driver);
       }
       return drivers;

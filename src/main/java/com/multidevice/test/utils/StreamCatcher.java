@@ -9,8 +9,6 @@ import lombok.Getter;
 
 /**
  * This class is needed to capture standard and error output from external command line utilities, like adb.
- *
- * @author mfilkov
  */
 class StreamCatcher extends Thread {
   private final InputStream is;

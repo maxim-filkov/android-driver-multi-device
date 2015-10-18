@@ -9,8 +9,6 @@ import org.springframework.beans.factory.config.Scope;
 /**
  * This cache class holds a map where test scoped beans are cached, ensuring that only one instance is created. It also
  * has a reset method for clearing the cache before each test run.
- *
- * @author mfilkov
  */
 public class TestScope implements Scope {
 

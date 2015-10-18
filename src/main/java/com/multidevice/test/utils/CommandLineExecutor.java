@@ -7,8 +7,6 @@ import lombok.NoArgsConstructor;
 
 /**
  * This class contains utilities for executing command line tools.
- *
- * @author mfilkov
  */
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class CommandLineExecutor {

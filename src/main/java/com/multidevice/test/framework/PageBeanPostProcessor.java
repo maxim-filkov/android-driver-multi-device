@@ -14,8 +14,6 @@ import org.springframework.stereotype.Component;
 /**
  * This is a bean post processor class needed for initialization. It initializes all page beans, i.e. to proxies all
  * WebElement fields in them.
- *
- * @author mfilkovs
  */
 @Component
 public class PageBeanPostProcessor implements BeanPostProcessor {

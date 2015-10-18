@@ -14,8 +14,6 @@ import lombok.NoArgsConstructor;
 
 /**
  * This class contains utilities related to ADB (Android Debug Bridge).
- *
- * @author mfilkov
  */
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public final class AdbUtils {

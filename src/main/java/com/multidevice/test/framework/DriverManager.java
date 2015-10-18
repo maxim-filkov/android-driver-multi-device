@@ -14,8 +14,6 @@ import org.springframework.stereotype.Component;
 
 /**
  * This manager controls created drivers.
- *
- * @author mfilkov
  */
 @Component
 public class DriverManager {
