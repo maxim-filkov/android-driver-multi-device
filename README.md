@@ -1,5 +1,5 @@
 # android-driver-multi-device
-Framework supporting **multiple connected Android devices**. The framework **allows to switch between devices** during test. When this can be useful? For example, when testing some messaging software - chats. You can type a message on one device, send it, and then switch to the other device to verify the message is delivered.
+Framework supporting **multiple connected Android devices**. The framework **allows switching between devices** during test. When this can be useful? For example, when testing some messaging software - chats. You can type a message on one device, send it, and then switch to the other device to verify the message is delivered.
 
 Technology stack:
 - JBehave to write tests using [Behavior-driven development](https://en.wikipedia.org/wiki/Behavior-driven_development) approach
